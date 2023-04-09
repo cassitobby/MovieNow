@@ -1,6 +1,7 @@
 # MovieNow Movie rentals Analysis.
 
-https://tidbits.com/uploads/2019/04/Rentals-6.jpg
+<img src="https://github.com/cassitobby/MovieNow/blob/be93afbedfe8148abd3a5ef16fee944a791b3616/Images/Capture.JPG?raw=true" alt="Alt text" title="Optional title">
+
 
 ## INTRODUCTION
 
@@ -50,5 +51,5 @@ MovieNow wants us to answer the following questions
 8. The year with the highest revenue for MovieNow was 2018, with a total of $658.02 in earnings.
   
 
-https://www.pexels.com/photo/thank-you-lettering-on-white-surface-4439457/
+<img src="https://github.com/cassitobby/MovieNow/blob/be93afbedfe8148abd3a5ef16fee944a791b3616/Images/Thank%20you.jpg?raw=true" alt="Alt text" title="Optional title" width="600" height="400">
 Thank you for following through. 
