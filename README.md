@@ -33,11 +33,10 @@ MovieNow wants us to answer the following questions
 3. Top 5 highest spending customer and the number of times they patronized MovieNow
 4. How much money is spent on rentals by each Customer?
 5. what is the total number of movie rentals, the average rating of all movies and the total revenue for each country since the beginning of 2019
-6. who is the best male actor by average ratings and most watch
-7. Which is the favorite movie on MovieNow for a specific group of customers: for all customers born in the 70s.
-8. Who is the most popular actor in spain
-9. Prepare a table for a report about the national preferences of the customers from MovieNow comparing the average rating of movies across countries and genres.
-10. what year did MovieNow make more money?
+6. Which is the favorite movie on MovieNow for a specific group of customers: for all customers born in the 70s.
+7. Who is the most popular actor in spain
+8. Prepare a table for a report about the national preferences of the customers from MovieNow comparing the average rating of movies across countries and genres.
+9. what year did MovieNow make more money?
 
 ## Insight
 
