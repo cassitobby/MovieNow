@@ -72,21 +72,6 @@ WHERE date_renting >= '2019-01-01'
 GROUP BY country
 ORDER BY revenue DESC, average_rating DESC;
 
---who is the best male actor by average ratings and most watch
-SELECT a.name,
-	   COUNT(*) AS number_of_views, 
-	   ROUND(AVG(r.rating), 2) AS avg_rating
-FROM renting AS r
-LEFT JOIN customers as c
-USING(customer_id)
-LEFT JOIN actsin as ai
-USING(movie_id)
-LEFT JOIN actors as a
-USING(actor_id)
-WHERE c.gender = 'male'
-GROUP BY a.name, c.gender
-HAVING AVG(r.rating) IS NOT NULL
-ORDER BY avg_rating DESC, number_of_views DESC;
 
 --Which is the favorite movie on MovieNow for a specific group of customers: for all customers born in the 70s.
 SELECT m.title, 
@@ -100,6 +85,7 @@ ON m.movie_id = r.movie_id
 WHERE c.date_of_birth BETWEEN '1970-01-01' AND '1979-12-31'
 GROUP BY m.title
 HAVING COUNT(*) > 1
+AND AVG(r.rating) IS NOT NULL
 ORDER BY avg_rating DESC;
 
 -- Who is the most popular actor in spain
